@@ -854,3 +854,18 @@ keyFunc_unshiftWinMinimizeStack(){
 keyFunc_winTransparent(){
     winTransparent()
 }
+
+keyFunc_avtiveF2(i:=1){
+    SendInput, {F2 %i%}
+    Return
+}
+
+keyFunc_avtiveF5(i:=1){
+    SendInput, {F5 %i%}
+    Return
+}
+
+keyFunc_avtiveF6(i:=1){
+    SendInput, {F6 %i%}
+    Return
+}
