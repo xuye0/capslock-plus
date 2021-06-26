@@ -808,7 +808,10 @@ return
 ;      Capslock2:=""
 ;  return
 
+;-----------------START-----------------
+#IfWinNotActive, ahk_exe mstsc.exe ; （新增行）远程桌面窗口禁止激活
 
+; ...
 
 #If
 
